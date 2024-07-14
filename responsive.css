@@ -1,0 +1,72 @@
+/* for Large Devices */
+@media screen and (max-width: 1024px) {
+    /* header-section */
+  .header-navbar {
+    margin-inline: 1rem;
+  }
+  .header-started{
+    top: 17vh;
+  }
+}
+@media screen and (max-width: 960px) {
+    /* header-section */
+  .header-started h1 {
+    font-size: 2rem;
+    font-weight: 700;
+  }
+  .header-started p {
+    font-size: 18px;
+    font-weight: 400;
+  }
+  .header-started h3 {
+    font-size: 18px;
+    font-weight: 400;
+  }
+  .header-section{
+    overflow: hidden;
+  }
+  .header-navbar .primary-btn{
+    margin-left: 0.5rem;
+  }
+  .header-navbar img{
+    height:50px;
+  }
+  .header-navbar{
+    margin-top: 0.7rem;
+  }
+  .registration-input{
+    width: 39vw;
+  }
+  .registration{
+    flex-direction: column;
+  }
+
+
+}
+/* for Medium Devices */
+@media screen and (max-width: 767px) {
+}
+
+/* for Small Devices */
+@media screen and (max-width: 479px) {
+  .header-navbar .noner{
+    display: none;
+  }
+  .header-section{
+    max-height: 65vh;
+  }
+  .header-started{
+    min-width: 330px;
+    align-items: center;
+  }
+  .registration-input{
+    width: 90vw;
+  }
+  .registration{
+    gap: 17px;
+  }
+  .header-navbar{
+    margin-inline:0.7rem;
+    margin-top: 0.2rem;
+  }
+}
