@@ -1,5 +1,6 @@
 @import url("https://fonts.cdnfonts.com/css/netflix-font");
 
+
 /* body properties */
 * {
   margin: 0;
@@ -9,6 +10,7 @@
 body {
   background-color: var(--body-background-color);
 }
+
 
 /* Utilities */
 :root {
@@ -72,6 +74,7 @@ p {
   background-color: #232323;
   height: 1vh;
 }
+
 
 /* header-sectiion */
 .header-section {
@@ -169,5 +172,96 @@ p {
 .content {
   position: relative;
   z-index: 2;
-  color: #fff;
+  color: var(--primary-color);
+}
+
+
+/* features-section */
+/* features-section1,features-container1 */
+
+.left-f1 h2{
+  font-weight: var(--primary-font-weight);
+  font-size: var(--h1-font-size);
+  color: var(--primary-color);
+  font-family: var(--body-font-family);
+}
+.left-f1 p{
+  margin-top: var(--primary-margin-top);
+}
+.right-f1{
+  position: relative;
+}
+.right-f1-img{
+  width:650px;
+  position: relative;
+  z-index: 10;
+
+}
+.video{
+  position: absolute;
+  left: 85px;
+  top:97px;
+}
+.features-section1{
+padding-inline: 171px;
+padding-block: 71px;
+}
+.features-container1{
+  justify-content: space-between;
+}
+/* features-container2 */
+.features-container2{
+  flex-direction: row-reverse;
+}
+/* features-container3 */
+
+.video3{
+  position:absolute;
+  left: 105px;
+  top: 50px;
+  min-width: 15px;
+}
+/* features-container4 */
+.features-container4{
+  flex-direction: row-reverse;
+}
+
+
+/* SubFooter-section */
+.heading h2 {
+  font-size: var(--h1-font-size);
+  color: var(--primary-color);
+  font-family: var(--body-font-family);
+  font-weight: var(--primary-font-weight);
+  text-align: center;
+}
+.questions-list li{
+  font-weight: var(--secondary-font-weight);
+  color: var(--primary-color);
+  font-size: var(--primary-font-size);
+  font-family:var(--body-font-family) ;
+  border: 2px solid red;
+  display: inline-block;
+}
+.subfooter-container{
+  padding-block: 72px;
+}
+.again-registration{
+  flex-direction: column;
+  gap: 1.3rem;
+  margin-top: 3rem;
+
+}
+.questions-container{
+  margin-top:1.5rem;
+}
+.question i{
+  color: var(--primary-color);
+}
+
+
+
+
+.border{
+  border: 2px solid red;
 }
