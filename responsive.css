@@ -57,6 +57,7 @@
     .subfooter-container {
       padding-block: 56px;
     }
+    /* footer-section */
   }
   /* for Medium Devices */
   @media screen and (max-width: 767px) {
@@ -148,16 +149,7 @@
       max-width: 80vw;
     }
     /* footer-section */
-    .footer-container {
-      margin-block: 1.5rem;
-      margin-inline: 1.5rem;
-      padding-inline: 0;
-    }
-    .footer-c {
-      width: 30%;
-    }
-    .special {
-      width: 70% !important;
+
     }
   }
 
@@ -175,9 +167,3 @@
       text-align: center;
     }
   }
-}
-@media screen and (min-width: 2000px) {
-  .footer-container {
-    padding-left: 10rem;
-  }
-}
