@@ -1,115 +1,228 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Netflix.com</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="netflix-fonts.css">
-    <link rel="stylesheet" href="responsive.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="netflix-fonts.css" />
+    <link rel="stylesheet" href="responsive.css" />
+  </head>
+  <body>
     <header class="header-section container">
-              <div class="content">
-                <div class="header-navbar flex">
-                    <img src="./assests/Netflix_Logo_PMS.png" alt="Logo-Netflix">
-                    <a href="#" class="secondary-btn noner"><i class="fa-solid fa-language"></i> English <i class="fa-solid fa-sort-down"></i></a>
-                    <a href="#" class="primary-btn">Sing In</a>
-                </div>
-            <div class="header-started flex">
-                <h1>Unlimited fun, TV shows and more</h1>
-                <p>Watch anywhere. Cancel anytime.</p>
-                <h3>Ready to watch? Enter your email to create or restart your membership.</h3>
-                <div class="registration flex">
-                    <input type="text" placeholder="Email address" class="registration-input">
-                    <button class="registration-btn">Get Started <i class="fa-solid fa-arrow-right"></i></button>
-                </div>
-            </div>
-              </div>
+      <div class="content">
+        <div class="header-navbar flex">
+          <img src="./assests/Netflix_Logo_PMS.png" alt="Logo-Netflix" />
+          <a href="#" class="secondary-btn noner"
+            ><i class="fa-solid fa-language"></i> English
+            <i class="fa-solid fa-sort-down"></i
+          ></a>
+          <a href="#" class="primary-btn">Sing In</a>
+        </div>
+        <div class="header-started flex">
+          <h1>Unlimited fun, TV shows and more</h1>
+          <p>Watch anywhere. Cancel anytime.</p>
+          <h3>
+            Ready to watch? Enter your email to create or restart your
+            membership.
+          </h3>
+          <div class="registration flex">
+            <input
+              type="text"
+              placeholder="Email address"
+              class="registration-input"
+            />
+            <button class="registration-btn">
+              Get Started <i class="fa-solid fa-arrow-right"></i>
+            </button>
+          </div>
+        </div>
+      </div>
     </header>
     <div class="spacer"></div>
     <main>
-        <section class="features-section">
-            <div class="features-section1">
-               <div class="features-container1 flex ">
-                <div class="left-f1 ">
-                    <h2>Enjoy on your TV</h2>
-                    <p>Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</p>
-                    </div>
-                    <div class="right-f1 ">
-                        <img class="right-f1-img" src="./assests/features1.png" alt="Tv-Image">
-                        <video class="video" src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-in-0819.m4v" type="video/mp4" autoplay muted loop></video>
-                    </div>
-               </div>
+      <section class="features-section">
+        <div class="features-section1">
+          <div class="features-container1 flex">
+            <div class="left-f1">
+              <h2>Enjoy on your TV</h2>
+              <p>
+                Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV,
+                Blu-ray players and more.
+              </p>
             </div>
-            <div class="spacer"></div>
-            <div class="features-section1">
-                <div class="features-container1 flex features-container2">
-                 <div class="left-f1 ">
-                     <h2>Download your shows to watch offline</h2>
-                     <p>Save your favourites easily and always have something to watch.</p>
-                     </div>
-                     <div class="right-f1 ">
-                         <img class="right-f1-img" src="./assests/features2.jpg" alt="Mobile-Image">
-                     </div>
-                </div>
-             </div>
-             <div class="spacer"></div>
-             <div class="features-section1">
-                <div class="features-container1 flex features-container3">
-                 <div class="left-f1 ">
-                     <h2>Watch everywhere</h2>
-                     <p>Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.</p>
-                     </div>
-                     <div class="right-f1 ">
-                         <img class="right-f1-img " src="./assests/features3.png" alt="Monitor-Image">
-                         <video class="video3" src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-devices-in.m4v" type="video/mp4" autoplay muted loop></video>
-                     </div>
-                </div>
-             </div>
-             <div class="spacer"></div>
-             <div class="features-section1">
-                <div class="features-container1 flex features-container4">
-                 <div class="left-f1 ">
-                     <h2>Create profiles for kids</h2>
-                     <p>Send children on adventures with their favourite characters in a space made just for them—free with your membership.</p>
-                     </div>
-                     <div class="right-f1 ">
-                         <img class="right-f1-img" src="./assests/features4.png" alt="Kids-Image">
-                     </div>
-                </div>
-             </div>
-             <div class="spacer"></div>
-        </section>
-        <section class="subfooter">
-            <div class="subfooter-container">
-                <div class="heading">
-                    <h2>Frequently Asked Questions</h2>
-                </div>
-                <div class="questions-container">
-                    <ul class="questions-list">
-                        <div class="question"><li>What is Netflix? <i class="fa-solid fa-plus"></i></li></div>
-                        <div class="question"><li>How much does Netflix cost?</li><i class="fa-solid fa-plus"></i></div>
-                        <div class="question"><li>Where can I watch?</li><i class="fa-solid fa-plus"></i></div>
-                        <div class="question"><li>How do I cancel?</li></div>
-                        <div class="question"><li>What can I watch on Netflix?</li><i class="fa-solid fa-plus"></i></div>
-                        <div class="question"><li>Is Netflix good for kids?</li><i class="fa-solid fa-plus"></i></div>
-                    </ul>
-                </div>
-                <div class="again-registration flex">
-                    <h3>Ready to watch? Enter your email to create or restart your membership.</h3>
-                    <div class="registration flex">
-                        <input type="text" placeholder="Email address" class="registration-input">
-                        <button class="registration-btn">Get Started <i class="fa-solid fa-arrow-right"></i></button>
-                    </div>
-                </div>
+            <div class="right-f1">
+              <img
+                class="right-f1-img"
+                src="./assests/features1.png"
+                alt="Tv-Image"
+              />
+              <video
+                class="video video1"
+                src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-in-0819.m4v"
+                type="video/mp4"
+                autoplay
+                muted
+                loop
+              ></video>
             </div>
-        </section>
+          </div>
+        </div>
+        <div class="spacer"></div>
+        <div class="features-section1">
+          <div class="features-container1 flex features-container2">
+            <div class="left-f1">
+              <h2>Download your shows to watch offline</h2>
+              <p>
+                Save your favourites easily and always have something to watch.
+              </p>
+            </div>
+            <div class="right-f1">
+              <img
+                class="right-f1-img"
+                src="./assests/features2.jpg"
+                alt="Mobile-Image"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="spacer"></div>
+        <div class="features-section1">
+          <div class="features-container1 flex features-container3">
+            <div class="left-f1">
+              <h2>Watch everywhere</h2>
+              <p>
+                Stream unlimited movies and TV shows on your phone, tablet,
+                laptop, and TV.
+              </p>
+            </div>
+            <div class="right-f1">
+              <img
+                class="right-f1-img"
+                src="./assests/features3.png"
+                alt="Monitor-Image"
+              />
+              <video
+                class="video3"
+                src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-devices-in.m4v"
+                type="video/mp4"
+                autoplay
+                muted
+                loop
+              ></video>
+            </div>
+          </div>
+        </div>
+        <div class="spacer"></div>
+        <div class="features-section1">
+          <div class="features-container1 flex features-container4">
+            <div class="left-f1">
+              <h2>Create profiles for kids</h2>
+              <p>
+                Send children on adventures with their favourite characters in a
+                space made just for them—free with your membership.
+              </p>
+            </div>
+            <div class="right-f1">
+              <img
+                class="right-f1-img"
+                src="./assests/features4.png"
+                alt="Kids-Image"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="spacer"></div>
+      </section>
+      <section class="subfooter">
+        <div class="subfooter-container">
+          <div class="heading">
+            <h2>Frequently Asked Questions</h2>
+          </div>
+          <div class="questions-container">
+            <ul class="questions-list">
+              <div class="question">
+                <li>What is Netflix?</li>
+                <i class="fa-solid fa-plus"></i>
+              </div>
+              <div class="question">
+                <li>How much does Netflix cost?</li>
+                <i class="fa-solid fa-plus"></i>
+              </div>
+              <div class="question">
+                <li>Where can I watch?</li>
+                <i class="fa-solid fa-plus"></i>
+              </div>
+              <div class="question">
+                <li>How do I cancel?</li>
+                <i class="fa-solid fa-plus"></i>
+              </div>
+              <div class="question">
+                <li>What can I watch on Netflix?</li>
+                <i class="fa-solid fa-plus"></i>
+              </div>
+              <div class="question question-special">
+                <li>Is Netflix good for kids?</li>
+                <i class="fa-solid fa-plus"></i>
+              </div>
+            </ul>
+          </div>
+          <div class="again-registration flex">
+            <h3>
+              Ready to watch? Enter your email to create or restart your
+              membership.
+            </h3>
+            <div class="registration flex">
+              <input
+                type="text"
+                placeholder="Email address"
+                class="registration-input"
+              />
+              <button class="registration-btn">
+                Get Started <i class="fa-solid fa-arrow-right"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="spacer"></div>
+      </section>
     </main>
-
-
-
-
-    <script src="https://kit.fontawesome.com/d66c5f4ebc.js" crossorigin="anonymous"></script>
-</body>
+    <footer>
+        <div class="footer-container flex">
+            <div class="footer-c footer-c1">
+                <div class="question-call">Questions? Call <a href="#">000-800-919-1694</a></div>
+                <a href="#">FAQ</a>
+                <a href="#">Investor Relations</a>
+                <a href="#">Privacy</a>
+                <a href="#">Speed Test</a>
+                <a href="#" class="secondary-btn noner footer-lang-btn"
+            ><i class="fa-solid fa-language"></i> English
+            <i class="fa-solid fa-sort-down"></i
+          ></a>
+          <div class="owner">Netflix India</div>
+            </div>
+            <div class="footer-c footer-c2">
+                <a href="#">Help Centre</a>
+                <a href="#">Jobs</a>
+                <a href="#">Cookie Prefrences</a>
+                <a href="#">Legal Notices</a>
+            </div>
+            <div class="footer-c footer-c3">
+                <a href="#">Account</a>
+                <a href="#">Ways to Watch</a>
+                <a href="#">Corporate Information</a>
+                <a href="#">Only on Netflix</a>
+            </div>
+            <div class="footer-c footer-c4">
+                <a href="#">Media Centre</a>
+                <a href="#">Terms of Use</a>
+                <a href="#">Contact Us</a>
+            </div>
+        </div>
+    </footer>
+    <script
+      src="https://kit.fontawesome.com/d66c5f4ebc.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
